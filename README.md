@@ -30,3 +30,8 @@ To see all the container running or not running
 ```bash
 docker ps -a
 ```
+To stop the running container use below command
+```bash
+docker stop container name/ container id 
+docker stop 50f6*****( lets say nginx id is 50f6*****)
+```
