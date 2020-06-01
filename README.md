@@ -46,3 +46,19 @@ List of docker images
 ```bash
 docker images
 ```
+
+Now let's as you are not using image "nginx" any more so want to remove the downloaded file as well
+
+```bash
+docker rmi container name
+```
+docker run command download image and run that image but let's say you want to just download the image
+```bash
+docker pull image name  //if the image name is nginx then use then it would be 
+docker pull nginx
+
+```
+Let's say we have an aplication name simple_webapp and we need to run it pamenantly in that case we need to run in detach mode
+```bash
+docker run -d application_name(here it will be simple_webapp)
+```
