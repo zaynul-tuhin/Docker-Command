@@ -12,6 +12,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 **Command**
+
 Now check the version of docker
 ```bash
 sudo docker version
