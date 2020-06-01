@@ -11,7 +11,7 @@ I just tried to listed down the  various command of docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
-##Command
+**Command**
 
 1. Now check the version of docker
 ```bash
