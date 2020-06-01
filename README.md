@@ -12,6 +12,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 ##Command
+
 1. Now check the version of docker
 ```bash
 sudo docker version
@@ -26,4 +27,8 @@ If you don't have this image locally it will download from [dockerhub](https://h
 3. Show the list of all the running container 
 ```bash
 docker ps
+```
+4. To see all the container running or not running 
+```bash
+docker ps -a
 ```
