@@ -35,3 +35,13 @@ To stop the running container use below command
 docker stop container name/ container id 
 docker stop 50f6*****( lets say nginx id is 50f6*****)
 ```
+We want to remove a container
+```bash
+docker rm container name/ container id 
+docker rm 50f6*****( lets say nginx id is 50f6*****)
+```
+List of docker images
+
+```bash
+docker images
+```
