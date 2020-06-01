@@ -12,23 +12,21 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 **Command**
-
-1. Now check the version of docker
+Now check the version of docker
 ```bash
 sudo docker version
 ```
-2.Now the Docker run command let's say you want to run an image name nginx, so the run command will be
+Now the Docker run command let's say you want to run an image name nginx, so the run command will be
+If you don't have this image locally it will download from [dockerhub](https://hub.docker.com/_/nginx)
 
 ```bash
 docker run nginx
 ```
-If you don't have this image locally it will download from [dockerhub](https://hub.docker.com/_/nginx)
-
-3. Show the list of all the running container 
+Show the list of all the running container 
 ```bash
 docker ps
 ```
-4. To see all the container running or not running 
+To see all the container running or not running 
 ```bash
 docker ps -a
 ```
