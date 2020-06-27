@@ -11,6 +11,10 @@ I just tried to listed down the  various command of docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
+**Add user on docker group and reboot your OS**
+```bash
+ sudo gpasswd -a user_name docker
+ ```
 **Command**
 
 Now check the version of docker
